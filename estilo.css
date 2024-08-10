@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: Futura, sans-serif;
+	Line-height: 1.6;
+	color: #333;
+}
+header {
+	background: #007077;
+	color: #F8F8FF;
+	padding: 20px 0;
+	width: 100%;
+	top: 0;
+	Left: 0;
+	z-index: 1000;
+}
+
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+}
+
+header nav ul li {
+	margin-left: 27px;
+}
+
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#hero {
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/16/16/46/adult-3086302_1280.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px; /* Espaço adicional para compensar a barra de navegação fixa */
+
+
+}
+
+
+#hero h2 {
+	font-size: 3em;
+	margin=bottom: 20px;
+}
+
+#hero p {
+	font-size: 1.5em;
+	margin-bottom: 40px;
+}
+
+.cta-button {
+	background: #4C9BA0;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 1.2em;
+	border-radius: 50px;
+}
+
+
+
